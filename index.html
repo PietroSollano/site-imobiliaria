@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vale Imobiliaria - Página Principal</title>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <title>Vale Imobiliária - Página Principal</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Navegação -->
     <nav class="navbar navbar-expand-lg bg-dark text-white fixed-top">
         <div class="container-fluid">
-            <img src="img/87334280-69dd-49d9-90f1-7ab96b823ac7.png" class="d-block" alt="Logo" style="height: 100px; width: auto; max-width: 150px;">
+            <img src="img/87334280-69dd-49d9-90f1-7ab96b823ac7.png" 
+                 class="d-block img-fluid" 
+                 alt="Logo da Vale Imobiliária" 
+                 style="height: 100px; width: auto; max-width: 150px;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link custom-nav-link" href="index.html">Vale Imobiliaria</a>
+                        <a class="nav-link custom-nav-link" href="index.html">Vale Imobiliária</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Serviços
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Anhaguera.html">Serviços</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="Líbano.html">Conheça Nossos Imóveis</a></li>
+                            <li><a class="dropdown-item" href="Apartamentos.html">Apartamentos</a></li>
+                            <li><a class="dropdown-item" href="Casas.html">Casas</a></li>
+                            <li><a class="dropdown-item" href="Terrenos.html">Terrenos</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -35,8 +38,62 @@
         </div>
     </nav>
 
-    <!-- Adicione o conteúdo da página aqui -->
-
+    <!-- Cabeçalho -->
+    <header class="mt-5 pt-5">
+        <h1 class="text-center my-4">Venha conhecer sua nova casa!</h1>
+    </header>
+    
+    <div class="d-flex justify-content-center">
+        <img src="img/554849b3-c183-4d62-9995-cb02a71b7560.png" alt="Vale do Aço" style="width: 700px; height: auto;">
+    </div>
+    
+    <div style="text-align: center;">
+    <p><h3>Nós da Vale Imobiliária fornecemos os imovéis da melhor qualidade, e nas melhores localizações na região do Vale do Aço</h3></p>    
+    </div>
+    
+    <h1 class="text-center my-4">Conheça Alguns dos nossos empreendimentos!</h1>
+    <section>
+        <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; flex-wrap: wrap; text-align: center;">
+            <div class="col-lg-3 col-md-6" style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; height: 100%; margin: auto;">
+                <div class="itemImovel" style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                    <a href="burj mahai.html" title="Burj Mahai" style="text-decoration: none; color: inherit;">
+                        <img src="img/20200301192415766741u.webp" alt="Burj Mahai" style="width: 400px; height: auto; border-radius: 10px;">
+                        <div class="info">
+                            <h3 style="margin: 10px 0 5px; font-size: 1.5rem;">Burj Mahai</h3>
+                            <p style="color: #555; font-size: 1rem;">Iguaçu - Ipatinga/MG</p>
+                        </div>
+                    </a>
+                </div>
+            </div>        
+        
+            <div class="col-lg-3 col-md-6" style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; height: 100%; margin: auto;">
+                <div class="itemImovel" style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                    <a href="Residencial Aurora.html" title="Residencial Aurora" style="text-decoration: none; color: inherit;">
+                        <img src="img/terreno-em-area-urbana.jpg" alt="Residencial Aurora" style="width: 400px; height: auto; border-radius: 10px;">
+                        <div class="info">
+                            <h3 style="margin: 10px 0 5px; font-size: 1.5rem;">Residencial Aurora</h3>
+                            <p style="color: #555; font-size: 1rem;">São José - Santana do Paraíso/MG</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6" style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; height: 100%; margin: auto;">
+            <div class="itemImovel" style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <a href="Mont Blanc.html" title="Mont Blanc" style="text-decoration: none; color: inherit;">
+                    <img src="img/mont-blanc-2.jpg" alt="Mont Blanc" style="width: 400px; height: auto; border-radius: 10px;">
+                    <div class="info">
+                        <h3 style="margin: 10px 0 5px; font-size: 1.5rem;">Residencial Aurora</h3>
+                        <p style="color: #555; font-size: 1rem;">São José - Santana do Paraíso/MG</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+       
+    
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
